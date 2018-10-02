@@ -37,8 +37,9 @@ namespace QuoteEmailer
             {
                 // XXX - Should this be a little different?
                 client.ServerCertificateValidationCallback = (s, c, h, e) => true;
-
-                client.Connect("smtp.mailgun.org", 25, false);
+                //Set up account with MailGun and make sure your website's DNS values are set up correctly as per their instructions.
+                //This must be done on their website, on your domain website and here in these settings.
+                client.Connect("smtp.mailgun.org", 25, false); 
                 client.AuthenticationMechanisms.Remove("XOAUTH2");
                 client.Authenticate("INSERT POST EMAIL HERE", "INSERT PASSWORD HERE");
 
