@@ -19,7 +19,7 @@ The reason this setup is required is that the sending of the email itself in thi
 If this application is set up correctly it will do the following.
 
 1. Show a console menu prompting for an email and a name.
-2. Checks if the email appears even slightly valid (e.g. has an @ symbol in it).
+2. Check if the email appears even slightly valid (e.g. has an @ symbol in it).
 3. Contacts an external API which in JSON replies with a quote and the author of the quote.
 4. Separate the author out from the JSON reply.
 5. Contacts wikipedias API with the authors name and gets a JSON reply.
