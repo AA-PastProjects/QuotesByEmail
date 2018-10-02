@@ -4,6 +4,10 @@ Project from the spring of 2018 - made during my 1st semester of my PBA in softw
 
 It is a console application made in .NET Core and C#.
 
+There is some error handling that could have been done more nicely and a static method which some would argue should have been a non-static method.
+
+But overall a good project that works as intended.
+
 ### Setup
 
 To set up the application you need to do 3 steps.
