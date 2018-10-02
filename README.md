@@ -1,6 +1,6 @@
 # QuotesByEmail
 
-Project from the spring of 2018 - during my 1st semester of my PBA in software development.
+Project from the spring of 2018 - made during my 1st semester of my PBA in software development.
 
 It is a console application made in .NET Core and C#.
 
