@@ -6,7 +6,7 @@ It is a console application made in .NET Core and C#.
 
 ### Setup
 
-To set up the application you need to do 2 steps.
+To set up the application you need to do 3 steps.
 
 1. Follow Mailguns instructions on their website for setting up a user on their website + DNS values on your domain.
 2. Wait for the DNS to be discovered correctly (can take some time, maybe minutes, maybe hours, maybe a day or two).
