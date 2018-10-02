@@ -2,11 +2,23 @@
 
 Project from the spring of 2018 - during my 1st semester of my PBA in software development.
 
-A console application made in .NET Core and C#.
+It is a console application made in .NET Core and C#.
 
-This application does the following upon startup.
+### Setup
 
-1. Receives your email and name.
+To set up the application you need to do 2 steps.
+
+1. Follow Mailguns instructions on their website for setting up a user on their website + DNS values on your domain.
+2. Wait for the DNS to be discovered correctly (can take some time, maybe minutes, maybe hours, maybe a day or two).
+3. In the EmailSender.cs class, edit the SendEmailWithSmtp method to fit your new mailgun acquired information.
+
+The reason this setup is required is that the sending of the email itself in this program goes via MailGuns service.
+
+### Features and use
+
+If this application is set up correctly it will do the following.
+
+1. Show a console menu prompting for an email and a name.
 2. Checks if the email appears even slightly valid (e.g. has an @ symbol in it).
 3. Contacts an external API which in JSON replies with a quote and the author of the quote.
 4. Separate the author out from the JSON reply.
